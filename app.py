@@ -44,7 +44,7 @@ def main():
     Glucose=st.number_input('Insert a Glucose',50,200)
     BP=st.number_input('Insert a BP',50,200)
     SkinThickness=st.number_input('Insert a SkinThickness',50,100)
-    Insulin=st.number_input('Insert a Insulin',50,1)
+    Insulin=st.number_input('Insert a Insulin',50,100)
     BMI=st.number_input('Insert a BMI',0,100)
     PedigreeFunction=st.number_input('Insert a PedigreeFunction',0,100)
     Age = st.number_input('Insert a Age',18,60)
