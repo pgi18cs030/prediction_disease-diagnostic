@@ -40,7 +40,7 @@ def main():
    """
     st.markdown(html_temp,unsafe_allow_html=True)
     
-    Gender1 = st.number_input('Insert Gender Male:1 Female:0')
+    Gender = st.number_input('Insert Gender Male:1 Female:0')
     Glucose=st.number_input('Insert a Glucose',50,200)
     BP=st.number_input('Insert a BP',50,200)
     SkinThickness=st.number_input('Insert a SkinThickness',50,100)
